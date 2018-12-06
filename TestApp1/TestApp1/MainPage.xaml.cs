@@ -26,7 +26,7 @@ namespace TestApp1
         public MainPage()
         {
             this.InitializeComponent();
-            Analytics.TrackEvent("App Opened");
+            Analytics.TrackEvent("App Opened By The User");
         }
     }
 }
